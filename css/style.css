@@ -1,0 +1,69 @@
+/* GENERAL */
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section .heading {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background-color: rgb(95, 92, 92);
+    margin: 0 auto;
+}
+
+/* ABOUT */
+
+#about {
+    padding-top: 100px;
+    background: linear-gradient(45deg, #53535d, #000214);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+}
+
+.profile-picture {
+    text-align: center;
+    margin: 0 auto;
+    float: none !important;
+}
+
+.img-circle {
+
+    border-radius: 100%;
+    border: #fff 7px solid;
+    box-shadow: 2px 2px 2px rgb(53, 53, 53)
+}
+
+#about .heading h2 {
+    color: #fff;
+}
+
+#about .heading h1 {
+    color: #fff;
+}
+
+/* SKILLS */
+
+#skills .heading2 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#skills .progress {
+    height: 100%;
+    margin: 30px 20px;
+    background-color: rgb(167, 162, 162);
+}
+
+#skills .progress-bar {
+    background: linear-gradient(45deg, #53535d, #000214);;
+}

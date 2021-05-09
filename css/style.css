@@ -21,6 +21,13 @@ section .heading {
     margin: 0 auto;
 }
 
+.divider-white {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    margin: 30px auto;
+}
+
 /* ABOUT */
 
 #about {
@@ -52,6 +59,10 @@ section .heading {
 
 /* SKILLS */
 
+#skills {
+    margin-bottom: 40px;
+}
+
 #skills .heading2 h2 {
     text-transform: uppercase;
     text-align: center;
@@ -65,5 +76,94 @@ section .heading {
 }
 
 #skills .progress-bar {
-    background: linear-gradient(45deg, #53535d, #000214);;
+    background: linear-gradient(45deg, #53535d, #000214);
+}
+
+/* EXP */
+
+#exp {
+    background: linear-gradient(45deg, #53535d, #000214);
+}
+
+#exp .heading3 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.heading3 h2 {
+    color: #fff;
+}
+
+.timeLine {
+    padding: 30px 10px;
+    position: relative;
+}
+
+.timeLine::before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #fff;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeLine > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeLine > li::after {
+    clear: both;
+}
+
+.timeLine > li::before, .timeLine > li::after {
+    content: " ";
+    display: table;
+
+}
+
+.timeLine li .timeLine-badge {
+    color: #2a2b39;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #ddd;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgb(34, 34, 34)
+}
+
+.timeLine-panel-container {
+    width: 50%;
+    float: left;   
+}
+
+.timeLine-panel-container-inverted {
+    width: 50%;
+    float: right;
+}
+
+.timeLine-panel {
+    width: 90%;
+    float: right;
+    margin-right: 40px;
+    border: 1px solid #d4d4d4;
+    border-radius: 7px;
+    padding: 20px 25px;
+    position: relative;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background: #fff;
+}
+
+.timeLine-panel-container-inverted .timeLine-panel {
+    float: left;
+    margin-left: 40px;
 }

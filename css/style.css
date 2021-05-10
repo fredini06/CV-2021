@@ -98,6 +98,7 @@ section .heading {
 .timeLine {
     padding: 30px 10px;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .timeLine::before {
@@ -133,7 +134,7 @@ section .heading {
     font-size: 20px;
     text-align: center;
     position: absolute;
-    top: 16px;
+    top: 30px;
     left: 50%;
     margin-left: -25px;
     background-color: #ddd;
@@ -163,7 +164,159 @@ section .heading {
     background: #fff;
 }
 
+.timeLine-panel::after {
+    position: absolute;    
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
 .timeLine-panel-container-inverted .timeLine-panel {
     float: left;
     margin-left: 40px;
+}
+
+.timeLine-panel-container-inverted .timeLine-panel::after {
+    border-left-width: 0 ;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeLine-heading h3 {
+    color: #53535D;
+    margin-bottom: 25px !important;
+    margin-top: 5px !important;
+}
+
+.timeLine-heading h4 {
+    font-size: 19px;
+}
+
+.text-muted {
+    font-size: 22px;
+    color: #000 !important;
+    margin-top: 5px;
+}
+
+.glyText {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.timeLine-body {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #000;
+}
+
+.sousTitre {
+    width: 80px;
+    border-top: 2px solid #000;
+    margin: 0 !important;
+    position: absolute;
+    top: 52px;
+}
+
+/* Formation */
+
+.education-block {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.education-block h5 {
+    font-size: 20px;
+}
+
+.education-block h4 {
+    font-size: 18px;
+}
+
+.education-block .glyphicon {
+    font-size: 25px;
+}
+
+.education-block .divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.education-block p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.formation h2 {
+    text-transform: uppercase;
+}
+
+.formation .divider {
+    margin-top: 50px;
+}
+
+.formation .heading {
+    padding-bottom: 0;
+}
+
+.formation .row {
+    margin-bottom: 50px;
+}
+
+/* Divers */
+
+
+.divers .heading {
+    padding-bottom: 50px;
+}
+
+.diversBlock {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 60px;
+}
+
+.diversBlock p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* footer */
+
+footer {
+    background: linear-gradient(45deg, #53535d, #000214);
+    padding: 20px 0 40px;
+}
+
+footer .glyphicon {
+    font-size: 25px;
+    margin: 20px;color: #fff;
+    height: 30px;
+}
+
+footer .glyphicon:hover {
+    font-size: 27px;
+}
+
+footer h5 {
+    color: #fff;
 }

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- BOOTSRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <title>CV Frédéric Iniesta</title>
 </head>
@@ -23,23 +25,30 @@
             </div>
             <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="#about">Accueil</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#exp">Expérience</a></li>
-                    <li><a href="#formation">Formations</a></li>
-                    <li><a href="#divers">Divers</a></li>
+                    <li><a href="#about" class="backtotop">Accueil</a></li>
+                    <li><a href="#skills" class="backtotop">Compétences</a></li>
+                    <li><a href="#exp" class="backtotop">Expérience</a></li>
+                    <li><a href="#formation" class="backtotop">Formations</a></li>
+                    <li><a href="#divers" class="backtotop">Divers</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <section id="about" class="container">
-        <div class="col-xs-8 col-md-4 profile-picture">
+        <div class="profile-picture">
             <img src="./images/Photo-Fred2.png" alt="Photo Fred" class="img-circle">
         </div>
+        <div class="adress">
+            <h3>Frédéric Iniesta</h3>
+            <p>&nbsp 26, avenue Pierre Emmanuel</p>
+            <p>&nbsp &nbsp 06000 Nice</p>
+            <p>&nbsp 06 34 67 28 03</p>
+            <p>51 ans</p>
+        </div>
         <div class="heading">
-            <h2>Frédéric Iniesta</h2>
-            <h1>Développeur Web - Infographiste</h1>
+            <h1>Développeur Web</h1>
+            <h1>Infographiste</h1>
         </div>
     </section>
 
@@ -242,5 +251,6 @@
     <script src="./js/script.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="./js/smooth-scroll.js"></script>
 </body>
 </html>

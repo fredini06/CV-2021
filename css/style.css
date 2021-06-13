@@ -18,7 +18,7 @@ section .heading {
     width: 100px;
     height: 2px;
     background-color: rgb(95, 92, 92);
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 .divider-white {
@@ -74,24 +74,32 @@ section .heading {
 }
 
 .profile-picture {
-    text-align: center;
-    margin: 0 auto;
+    /* text-align: center; */
+    /* margin: 0 auto; */
     float: none !important;
 }
 
 .img-circle {
-
+    margin-bottom: 60px;
+    margin-left: 50px;
     border-radius: 100%;
     border: #fff 7px solid;
     box-shadow: 2px 2px 2px rgb(53, 53, 53)
 }
 
-#about .heading h2 {
+#about {
+    display: flex;
+}
+
+.adress {
     color: #fff;
+    margin: 0 30px;
+    font-size: 20px;
 }
 
 #about .heading h1 {
     color: #fff;
+    margin-left: 150px;
 }
 
 /* SKILLS */
@@ -311,7 +319,7 @@ section .heading {
 }
 
 .formation .row {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /* Divers */

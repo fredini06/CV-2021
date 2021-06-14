@@ -102,6 +102,41 @@ section .heading {
     margin-left: 150px;
 }
 
+@media (max-width: 1024px) {
+    .profile-picture {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #about .heading h1 {
+        margin-left: 0;
+    }
+
+    .img-circle {
+        margin-left: 20px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    #about .heading h1 {
+        margin-left: 0;
+        font-size: 25px;
+    }
+
+    .adress {
+        font-size: 15px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 414px) {
+    .profile-picture {
+        display: none;
+    }
+}
+
 /* SKILLS */
 
 #skills {
@@ -270,6 +305,29 @@ section .heading {
     top: 52px;
 }
 
+@media (max-width: 414px) {
+
+    .timeLine-panel {
+        padding: 5px;
+    }
+
+    .timeLine-heading h3 {
+        font-size: 19px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .timeLine-heading h4 {
+        font-size: 17px;
+    }
+
+    .timeLine-body {
+        font-size: 15px;
+    }
+}
+
 /* Formation */
 
 .education-block {
@@ -322,6 +380,11 @@ section .heading {
     margin-bottom: 30px;
 }
 
+@media (max-width: 414px) {
+    .education-block h3 {
+        font-size: 20px;
+    }
+}
 /* Divers */
 
 
@@ -344,6 +407,13 @@ section .heading {
     font-weight: bold;
     font-size: 18px;
 }
+
+@media (max-width: 320px) {
+    .diversBlock p {
+        font-size: 16px;
+    }
+}
+
 
 /* footer */
 
